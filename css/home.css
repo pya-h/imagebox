@@ -1,0 +1,13 @@
+.image {
+    width: 25rem;
+    height: 15rem;
+    margin: 1%;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+    border-radius: 5px;
+}
+
+.image:hover {
+    opacity: 0.7;
+}

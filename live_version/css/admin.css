@@ -1,0 +1,200 @@
+.admin-panel-title{
+    color: cyan;
+    margin: auto;
+}
+
+.admin-panel-container {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.admin-panel-menu {
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.menu-item {
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    color: white;
+    border: 1px solid gray;
+    background: gray;
+    padding: 4rem 2rem 4rem 2rem;
+    transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+}
+
+.menu-item:hover {
+    opacity: 0.8;
+}
+
+
+.box-upload {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 4rem 2rem 4rem 2rem;
+    margin-top: 10rem;
+}
+.select-button {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 3px solid black;
+    background: rgba(255, 189, 48, 0.94);
+    cursor: pointer;
+}
+.upload-button {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 3px solid black;
+    background: #30ff98;
+    cursor: pointer;
+}
+.select-button:hover {
+    background: yellow;
+}
+.upload-button:hover {
+    background: darkgreen;
+}
+
+.image-card {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 15rem;
+    margin: 2rem 0 2rem 0;
+    text-align: left;
+}
+
+.image-thumbnail {
+    height: 100%;
+    width: 25%;
+}
+
+.edit-menu-container {
+    background: gray;
+    width: 100%;
+    height: 100%;
+}
+
+.edit-menu-anchors {
+    display: inline;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
+    left: 25%;
+}
+
+.edit-anchor {
+    text-decoration: none;
+    background: lawngreen;
+    padding: 1.2rem 2.4rem 1.2rem 2.4rem;
+    color: white;
+}
+
+#btnDelete {
+    margin-left: 2.5rem;
+    background: red;
+}
+#btnDelete:hover {
+    background: darkred;
+}
+#btnReplace {
+    margin-right: 2.5rem;
+    background: rgba(255, 165, 0, 0.89);
+}
+#btnReplace:hover {
+    background: darkorange;
+}
+.edit-error {
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+.edit-success {
+    font-weight: bold;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+@media (max-height: 700px) {
+
+    .box-upload {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-height: 500px) {
+    .box-upload {
+        margin-top: 1rem;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+}
+@media (max-width: 1300px) {
+    .image-thumbnail {
+        height: 100%;
+        width: 35%;
+    }
+    .edit-menu-anchors {
+        left: 10%;
+    }
+
+    #btnDelete {
+        margin-left: 1.5rem;
+    }
+    #btnReplace {
+        margin-right: 1.5rem;
+    }
+}
+@media (max-width: 1000px) {
+    .image-thumbnail {
+        height: 100%;
+        width: 40%;
+    }
+    .edit-menu-anchors {
+        left: 5%;
+    }
+
+    #btnDelete {
+        margin-left: 1.5rem;
+    }
+    #btnReplace {
+        margin-right: 1.5rem;
+    }
+}
+@media (max-width: 700px) {
+    .image-thumbnail {
+        height: 100%;
+        width: 50%;
+    }
+    .edit-menu-anchors {
+        left: 12%;
+        height: 100%;
+    }
+
+    #btnDelete {
+        margin-left:-8rem;
+    }
+    #btnReplace {
+        margin-right: 0;
+        position: relative;
+        bottom: 5rem;
+    }
+}

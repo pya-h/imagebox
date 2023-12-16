@@ -1,0 +1,54 @@
+body {
+    background: #2f2d2d;
+    text-align: center;
+    color: white;
+    word-wrap: break-word;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grayed {
+    color: grey;
+}
+
+.nav-item{
+    text-decoration: none;
+    display : inline;
+    color: white;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.nav-item:hover {
+    background: cyan;
+}
+.nav-list-item {
+    display : inline;
+    color: black;
+    margin-right:0.25rem;
+    margin-left: 0.25rem;
+}
+nav ul {
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.success {
+    font-weight: bold;
+    color: lawngreen;
+    border: 1px solid lawngreen;
+    padding: 1rem;
+    border-radius: 5px;
+}
